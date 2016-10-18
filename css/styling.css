@@ -1,0 +1,11 @@
+#initially-hidden {
+  display: none;
+}
+ .clickable {
+   text-decoration: underline;
+   color: blue;
+ }
+
+p {
+  width:600px;
+}
