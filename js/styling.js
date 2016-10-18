@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#initially-hidden").toggle();
-    $("#initially-showing").toggle();
+    $("#initially-hidden").fadeToggle();
+    $("#initially-showing").fadeToggle();
 
     var width =1000;
     var height=400;
